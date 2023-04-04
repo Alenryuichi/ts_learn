@@ -128,7 +128,7 @@ node index.js
 3.  `utils`  目录：包含所有工具函数代码。
 4.  `styles`  目录：包含所有样式代码。
 5.  `assets`  目录：包含所有图片、字体等资源文件。
-
+```bash
 在 `public` 目录中，通常会按照功能或模块划分子目录，例如：
 public/
 ├── images/
@@ -188,4 +188,12 @@ scripts/
 │   ├── deploy.html.js  
 │   └── ...
 └── ...
+```
 
+# 测试
+1. src/下写模块代码
+2. test/下写测试代码，测试代码的文件名必须以.test.tsx结尾
+3. 执行测试命令
+```bash
+npm test -- --config=config/jest.config.js
+```
