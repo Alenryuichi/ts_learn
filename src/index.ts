@@ -3,5 +3,4 @@ function greeter(person: string) {
 }
 
 let user = "kylinmiao";
-let element = 5;
 document.body.innerHTML = greeter(user);

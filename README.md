@@ -24,7 +24,7 @@ npm install -g typescript
     ```js
     module.exports = {
       mode: "development",
-      entry: "./src/helloworld.ts", // 入口文件路径
+      entry: "./src/index.ts", // 入口文件路径
       output: {
         filename: "bundle.js", // 输出文件名
       },
@@ -93,10 +93,21 @@ npm install -g typescript
     在终端中运行以下命令，启动开发服务器：
 
     ```
+    npm run build
     npm run dev
     ```
 
     此时，在浏览器中打开 http://localhost:8080，即可看到 "Hello, TypeScript" 的输出，同时当修改代码之后，浏览器中也会实时更新。
+
+4. 执行ts代码
+
+```typescript
+// compile to js
+tsc index.ts
+
+// run js
+node index.js
+```
 
 # 基础
 ## 基础类型
