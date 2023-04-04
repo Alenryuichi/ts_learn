@@ -117,7 +117,7 @@ node index.js
 4.  `test`  目录：包含所有测试文件，用于测试代码的正确性和性能。
 5.  `config`  目录：包含所有配置文件，例如 Webpack 配置文件、环境变量配置文件等。
 6.  `node_modules`  目录：包含所有依赖项，例如第三方库、工具等。
-7.  `docs`  目录：包含所有文档文件，例如项目说明、API 文档等。
+7.  `docs`  目录：包含所有文档文件，例如项目说明、API 文档、学习文档等。
 8.  `scripts`  目录：包含所有脚本文件，例如构建脚本、部署脚本等。
 9.  `server` 目录：后端服务器代码
 10. `mock` 目录：包含所有mock文件，例如mock数据、mock接口等。
@@ -128,3 +128,64 @@ node index.js
 3.  `utils`  目录：包含所有工具函数代码。
 4.  `styles`  目录：包含所有样式代码。
 5.  `assets`  目录：包含所有图片、字体等资源文件。
+
+在 `public` 目录中，通常会按照功能或模块划分子目录，例如：
+public/
+├── images/
+│   ├── logo.png
+│   ├── banner.jpg
+│   └── ...
+├── favicon.ico
+└── index.html
+
+在 `test` 目录中，通常会按照功能或模块划分子目录，例如：
+test/
+├── components/
+│   ├── Button.test.tsx
+│   ├── Input.test.tsx
+│   └── ...
+├── pages/
+│   ├── Home.test.tsx
+│   ├── About.test.tsx
+│   └── ...
+└── ...
+
+在 `config` 目录中，通常会按照功能或模块划分子目录，例如：
+config/
+├── webpack/
+│   ├── webpack.common.js
+│   ├── webpack.dev.js
+│   ├── webpack.prod.js
+│   └── ...
+├── babel.config.js
+├── jest.config.js
+└── ...
+
+在 `docs` 目录中，通常会按照功能或模块划分子目录，例如：
+docs/
+├── api/
+│   ├── README.md
+│   ├── Button.md
+│   ├── Input.md
+│   └── ...
+├── learning/
+│   ├── README.md
+│   ├── React.md
+│   ├── TypeScript.md
+│   └── ...
+└── ...
+
+在 `scripts` 目录中，通常会按照功能或模块划分子目录，例如：
+scripts/
+├── build/
+│   ├── build.js
+│   ├── build.css.js
+│   ├── build.html.js
+│   └── ...
+├── deploy/
+│   ├── deploy.js
+│   ├── deploy.css.js
+│   ├── deploy.html.js  
+│   └── ...
+└── ...
+
