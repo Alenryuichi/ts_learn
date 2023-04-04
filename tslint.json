@@ -1,0 +1,13 @@
+{
+  "extends": [
+    "tslint:recommended"
+  ],
+  "rules": {
+    "no-console": false,
+    "no-empty": true,
+    "no-var-keyword": true,
+    "max-line-length": {
+      "options": [80]
+    }
+  }
+}
